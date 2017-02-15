@@ -27,6 +27,7 @@ namespace GLCanvas
 	[ToolboxBitmap(GLCanvas::GLCanvas3D::typeid)]
     [DefaultEvent("Render")]
 	[Description("Represents a 3D drawing canvas utilizing OpenGL.")]
+	[Docking(DockingBehavior::Ask)]
 	public ref class GLCanvas3D : public System::Windows::Forms::Control
 	{
 	// Constructor/destructor

@@ -22,6 +22,7 @@ namespace GLCanvas {
 	[ToolboxBitmap(GLCanvas::GLCanvas2D::typeid)]
     [DefaultEvent("Render")]
 	[Description("Represents a 2D drawing canvas utilizing OpenGL.")]
+	[Docking(DockingBehavior::Ask)]
 	public ref class GLCanvas2D : public System::Windows::Forms::Control
 	{
 	private:
