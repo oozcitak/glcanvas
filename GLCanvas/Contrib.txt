@@ -1,0 +1,5 @@
+Contributors to GLCanvas
+========================
+
+ * Ozgur Ozcitak
+ * Christian von Nathusius (Rounded rectangle functions for GLCanvas2D)
