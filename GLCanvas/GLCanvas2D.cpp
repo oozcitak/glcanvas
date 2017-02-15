@@ -35,6 +35,7 @@ namespace GLCanvas {
 		// Set property defaults
 		mLimits = Drawing::RectangleF::Empty;
 		mZoomFactor = 5.0f / 3.0f;
+		mBorderStyle = Windows::Forms::BorderStyle::Fixed3D;
 		AllowZoomAndPan = true;
 		mShowGrid = true;
 		mShowAxes = true;
